@@ -4,3 +4,7 @@ spring:
   config:
     import:
     - optional:configserver:http://root:secret@localhost:8081
+  boot:
+    admin:
+      client:
+        url: http://localhost:8086
