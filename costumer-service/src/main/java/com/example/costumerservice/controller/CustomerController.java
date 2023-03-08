@@ -19,7 +19,7 @@ import com.example.costumerservice.entity.Region;
 import com.example.costumerservice.service.ICustomerService;
 
 @RestController
-@RequestMapping("/customer")
+@RequestMapping("/customers")
 public class CustomerController {
 	
 	@Autowired
