@@ -1,6 +1,7 @@
+
 spring:
   application:
-    name: customer-service
+    name: registry-service
   config:
     import:
     - optional:configserver:http://root:secret@localhost:8081
